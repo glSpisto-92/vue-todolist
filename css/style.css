@@ -16,9 +16,10 @@ button{
   border: none;
   padding: 8px;
   transition: 0.5s all linear;
-  color: blue;
+  color: #fff;
   cursor: pointer;
   font-weight: bold;
+  background: rgba(0, 0, 0, 0.4);
 }
 button:hover{
   transform: scale(1.1);
@@ -53,7 +54,7 @@ p{
 input{
   margin-bottom: 25px;
   padding: 10px;
-  border-radius: 15px;
+  border-radius: 20px;
   border: none;
   background: rgba(0, 0, 0, 0.3);
   color: #fff;
@@ -75,7 +76,6 @@ li i:hover{
 
 ::placeholder{
   font-size: 16px;
-  /* color: #fff; */
 }
 
 .wrapper{
@@ -88,8 +88,4 @@ li i:hover{
   background-size: cover;
   display: flex;
   justify-content: flex-end;
-}
-
-.todolist{
-
 }
