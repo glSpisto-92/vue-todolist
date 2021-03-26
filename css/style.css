@@ -28,6 +28,14 @@ button:focus{
   outline: none;
 }
 
+ol{
+  max-width: 400px;
+  box-shadow: 3px 5px 14px 6px rgba(0,0,0,0.67);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 15px;
+}
+
 li{
   list-style: none;
   color: #fff;
@@ -67,7 +75,7 @@ input:focus{
 li i{
   margin-left: 15px;
   cursor: pointer;
-  transition: 0.5s all linear;
+  transition: 0.3s all linear;
 }
 li i:hover{
   transform: scale(1.2);
